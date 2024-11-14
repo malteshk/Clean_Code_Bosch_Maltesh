@@ -1,0 +1,10 @@
+def compare_and_list(list):
+    list1 =[]
+    for i in list:
+        if i[0] == 'B':
+            list1.append(i)
+    return list1
+
+if __name__=="__main__":
+    list = ["Bosch","Robert","Lenovo","Bengaluru","Rubic"]
+    print(compare_and_list(list))
